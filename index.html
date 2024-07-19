@@ -17,21 +17,45 @@
       href="./src/index.css"
     />
   </head>
-  <body>
-    <main class="bg-neutral-900 h-screen text-amber-200 px-10">
+  <body class="bg-gradient-to-t from-neutral-950 to-neutral-800">
+    <main class="h-screen text-amber-200 px-10 container mx-auto">
       <div class="flex flex-col justify-around items-center h-full">
         <div class="h-40 w-40 rounded-full border-4 border-amber-200 overflow-hidden">
           <img
-            src="./public/monica.jpg"
+            src="/monica.jpg"
             alt=""
             class="rounded-full"
           />
         </div>
+
         <div class="flex flex-col gap-2 text-center">
           <h1 class="text-2xl">Monica de Assis Cabrera</h1>
-          <h2 class="font-thin">Psicóloga Psicanalista</h2>
+          <h2 class="font-thin">Psicóloga e Psicanalista</h2>
         </div>
-        <ul class="w-full text-2xl flex flex-col gap-4">
+
+        <div class="w-full">
+          <h2>Contato</h2>
+          <span class="text-neutral-300/70">+55 51 99956-3448</span>
+        </div>
+
+        <div class="w-full">
+          <h2>consultório</h2>
+          <span class="text-neutral-300/70"
+            >Rua Mariante, 288 sala 506 - Rio Branco, Porto Alegre - RS</span
+          >
+        </div>
+
+        <div class="p-8">
+          <iframe
+            width="300"
+            height="300"
+            style="border: 0"
+            loading="lazy"
+            allowfullscreen
+            src="https://www.google.com/maps/embed/v1/place?q=place_id:EkNSLiBNYXJpYW50ZSwgMjg4IC0gUmlvIEJyYW5jbywgUG9ydG8gQWxlZ3JlIC0gUlMsIDkwNDMwLTE4MCwgQnJhemlsIjESLwoUChIJjZ7s9LR5GZURyfwIZGpAo2gQoAIqFAoSCbsh18q0eRmVEUhchN5h2js5&key=AIzaSyAXXFkygIyLnf2-FfSiN5bOmdmJ3aRxpI8"
+          ></iframe>
+        </div>
+        <!-- <ul class="w-full text-2xl flex flex-col gap-4">
           <li>
             <div class="border-2 border-amber-200 p-2 w-full text-center">
               <span>Portifólio</span>
@@ -52,7 +76,7 @@
               <span>Email</span>
             </div>
           </li>
-        </ul>
+        </ul> -->
       </div>
     </main>
   </body>
