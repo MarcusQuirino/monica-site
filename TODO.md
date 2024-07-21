@@ -1,0 +1,3 @@
+- [ ] change photo
+- [ ] change font
+- [ ] fix widescreen
